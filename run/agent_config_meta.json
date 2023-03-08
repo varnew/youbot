@@ -1,0 +1,313 @@
+{
+  "keys": "/Users/wuxianlin/Documents/github_money/youbot/config/config.default.js",
+  "middleware": "/Users/wuxianlin/Documents/github_money/youbot/config/config.default.js",
+  "security": {
+    "csrf": {
+      "enable": "/Users/wuxianlin/Documents/github_money/youbot/config/config.default.js",
+      "type": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/config/config.default.js",
+      "supportedRequests": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/config/config.default.js",
+      "refererWhiteList": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/config/config.default.js"
+    },
+    "domainWhiteList": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/config/config.default.js",
+    "xframe": {
+      "enable": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/config/config.default.js",
+      "ipExceptionList": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "session": {
+    "maxAge": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-session/config/config.default.js",
+    "logValue": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-session/config/config.default.js"
+  },
+  "helper": {
+    "shtml": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-i18n/config/config.default.js",
+    "cookieDomain": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-schedule/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-multipart/config/config.default.js",
+    "defaultParamCharset": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-multipart/config/config.default.js",
+    "allowArrayField": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-multipart/config/config.default.js",
+      "disable": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-development/config/config.default.js",
+    "overrideIgnore": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-static/config/config.default.js"
+  },
+  "view": {
+    "root": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-view/config/config.default.js",
+    "mapping": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-view/config/config.default.js"
+  },
+  "env": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js",
+  "name": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js",
+  "cookies": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js",
+  "maxIpsCount": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js",
+  "maxProxyCount": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js",
+    "version": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js",
+    "description": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js",
+    "private": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js",
+    "egg": {
+      "declarations": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js"
+    },
+    "dependencies": {
+      "aircode": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js",
+      "axios": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js",
+      "connect": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js",
+      "egg": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js",
+      "egg-curl": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js",
+      "eventsource": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js",
+      "express-basic-auth": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js",
+      "puppeteer": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js",
+      "request": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "egg-bin": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js",
+      "egg-ci": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js",
+      "egg-mock": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js",
+      "eslint": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js",
+      "eslint-config-egg": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js"
+    },
+    "scripts": {
+      "start": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js",
+      "stop": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js",
+      "dev": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js",
+      "debug": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js",
+      "test": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js",
+      "test-local": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js",
+      "cov": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js",
+      "lint": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js",
+      "ci": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js"
+    },
+    "ci": {
+      "version": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js",
+      "type": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js",
+      "url": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js"
+    },
+    "author": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js",
+    "license": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js"
+  },
+  "baseDir": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js",
+    "timing": {
+      "slowBootActionMinDuration": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js"
+    }
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js",
+    "cacheControl": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js",
+    "textLimit": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js",
+    "strict": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js",
+      "depth": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js"
+    },
+    "onerror": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js"
+  },
+  "logger": {
+    "dir": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js",
+    "env": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js",
+    "level": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js",
+    "enablePerformanceTimer": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js",
+    "enableFastContextLogger": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js"
+    },
+    "useHttpClientNext": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js"
+  },
+  "meta": {
+    "enable": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js",
+    "logging": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js",
+      "port": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/config/config.default.js"
+}

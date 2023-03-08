@@ -1,0 +1,764 @@
+2023-03-02 22:51:14,692 WARN 36630 [-/127.0.0.1/-/5ms POST /chat] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2023-03-02 22:51:14,694 WARN 36630 [-/127.0.0.1/-/7ms POST /chat] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/wuxianlin/Documents/github_money/youbot/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/app/extend/context.js:163:32)
+    at csrf (/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/lib/middlewares/csrf.js:39:9)
+    at dispatch (/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/wuxianlin/Documents/github_money/youbot/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/wuxianlin/Documents/github_money/youbot/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/wuxianlin/Documents/github_money/youbot/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/wuxianlin/Documents/github_money/youbot/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/wuxianlin/Documents/github_money/youbot/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 36630
+hostname: wuxianlindeMBP.lan
+
+2023-03-02 22:52:14,580 WARN 36651 [-/127.0.0.1/-/5ms POST /chat] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2023-03-02 22:52:14,582 WARN 36651 [-/127.0.0.1/-/7ms POST /chat] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/wuxianlin/Documents/github_money/youbot/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/app/extend/context.js:163:32)
+    at csrf (/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/lib/middlewares/csrf.js:39:9)
+    at dispatch (/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/wuxianlin/Documents/github_money/youbot/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/wuxianlin/Documents/github_money/youbot/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/wuxianlin/Documents/github_money/youbot/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/wuxianlin/Documents/github_money/youbot/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/wuxianlin/Documents/github_money/youbot/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 36651
+hostname: wuxianlindeMBP.lan
+
+2023-03-02 22:52:49,251 WARN 36651 [-/127.0.0.1/-/10ms POST /chat] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2023-03-02 22:52:49,251 WARN 36651 [-/127.0.0.1/-/10ms POST /chat] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/wuxianlin/Documents/github_money/youbot/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/app/extend/context.js:163:32)
+    at csrf (/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/lib/middlewares/csrf.js:39:9)
+    at dispatch (/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/wuxianlin/Documents/github_money/youbot/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/wuxianlin/Documents/github_money/youbot/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/wuxianlin/Documents/github_money/youbot/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/wuxianlin/Documents/github_money/youbot/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/wuxianlin/Documents/github_money/youbot/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 36651
+hostname: wuxianlindeMBP.lan
+
+2023-03-02 22:54:43,102 ERROR 36675 [-/127.0.0.1/-/5ms GET /chat?question=%E4%BD%A0%E4%BC%9A%E5%AB%A6%E5%A8%A5%E5%90%97] nodejs.TypeError: Cannot read properties of undefined (reading 'query')
+    at HomeController.chat (/Users/wuxianlin/Documents/github_money/youbot/app/controller/home.js:12:31)
+    at Object.callFn (/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/wuxianlin/Documents/github_money/youbot/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/wuxianlin/Documents/github_money/youbot/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/wuxianlin/Documents/github_money/youbot/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/wuxianlin/Documents/github_money/youbot/node_modules/koa-compose/index.js:45:18)
+    at /Users/wuxianlin/Documents/github_money/youbot/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/wuxianlin/Documents/github_money/youbot/node_modules/koa-compose/index.js:44:32)
+    at /Users/wuxianlin/Documents/github_money/youbot/node_modules/koa-compose/index.js:36:12
+
+pid: 36675
+hostname: wuxianlindeMBP.lan
+
+2023-03-02 22:55:01,821 ERROR 36768 [-/127.0.0.1/-/6ms GET /chat?question=%E4%BD%A0%E4%BC%9A%E5%AB%A6%E5%A8%A5%E5%90%97] nodejs.TypeError: Cannot read properties of undefined (reading 'query')
+    at HomeController.chat (/Users/wuxianlin/Documents/github_money/youbot/app/controller/home.js:12:31)
+    at Object.callFn (/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/wuxianlin/Documents/github_money/youbot/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/wuxianlin/Documents/github_money/youbot/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/wuxianlin/Documents/github_money/youbot/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/wuxianlin/Documents/github_money/youbot/node_modules/koa-compose/index.js:45:18)
+    at /Users/wuxianlin/Documents/github_money/youbot/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/wuxianlin/Documents/github_money/youbot/node_modules/koa-compose/index.js:44:32)
+    at /Users/wuxianlin/Documents/github_money/youbot/node_modules/koa-compose/index.js:36:12
+
+pid: 36768
+hostname: wuxianlindeMBP.lan
+
+2023-03-02 23:00:42,992 WARN 37128 [-/127.0.0.1/-/14ms POST /chat] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2023-03-02 23:00:42,994 WARN 37128 [-/127.0.0.1/-/16ms POST /chat] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/wuxianlin/Documents/github_money/youbot/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/app/extend/context.js:163:32)
+    at csrf (/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/lib/middlewares/csrf.js:39:9)
+    at dispatch (/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/wuxianlin/Documents/github_money/youbot/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/wuxianlin/Documents/github_money/youbot/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/wuxianlin/Documents/github_money/youbot/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/wuxianlin/Documents/github_money/youbot/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/wuxianlin/Documents/github_money/youbot/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 37128
+hostname: wuxianlindeMBP.lan
+
+2023-03-02 23:03:50,123 WARN 37317 [-/127.0.0.1/-/17ms POST /chat] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2023-03-02 23:03:50,132 WARN 37317 [-/127.0.0.1/-/26ms POST /chat] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/wuxianlin/Documents/github_money/youbot/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/app/extend/context.js:163:32)
+    at csrf (/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/lib/middlewares/csrf.js:39:9)
+    at dispatch (/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/wuxianlin/Documents/github_money/youbot/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/wuxianlin/Documents/github_money/youbot/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/wuxianlin/Documents/github_money/youbot/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/wuxianlin/Documents/github_money/youbot/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/wuxianlin/Documents/github_money/youbot/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 37317
+hostname: wuxianlindeMBP.lan
+
+2023-03-02 23:04:40,601 WARN 37413 [-/127.0.0.1/-/11ms POST /chat] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2023-03-02 23:04:40,603 WARN 37413 [-/127.0.0.1/-/12ms POST /chat] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/wuxianlin/Documents/github_money/youbot/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/app/extend/context.js:163:32)
+    at csrf (/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/lib/middlewares/csrf.js:39:9)
+    at dispatch (/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/wuxianlin/Documents/github_money/youbot/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/wuxianlin/Documents/github_money/youbot/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/wuxianlin/Documents/github_money/youbot/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/wuxianlin/Documents/github_money/youbot/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/wuxianlin/Documents/github_money/youbot/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 37413
+hostname: wuxianlindeMBP.lan
+
+2023-03-02 23:05:06,575 WARN 37510 [-/127.0.0.1/-/11ms POST /chat] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2023-03-02 23:05:06,576 WARN 37510 [-/127.0.0.1/-/13ms POST /chat] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/wuxianlin/Documents/github_money/youbot/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/app/extend/context.js:163:32)
+    at csrf (/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/lib/middlewares/csrf.js:39:9)
+    at dispatch (/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/wuxianlin/Documents/github_money/youbot/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/wuxianlin/Documents/github_money/youbot/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/wuxianlin/Documents/github_money/youbot/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/wuxianlin/Documents/github_money/youbot/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/wuxianlin/Documents/github_money/youbot/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 37510
+hostname: wuxianlindeMBP.lan
+
+2023-03-02 23:19:14,524 ERROR 37982 [-/127.0.0.1/-/13ms POST /chat] nodejs.TypeError: Cannot read properties of undefined (reading 'question')
+    at HomeController.chat (/Users/wuxianlin/Documents/github_money/youbot/app/controller/home.js:14:34)
+    at Object.callFn (/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/wuxianlin/Documents/github_money/youbot/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/wuxianlin/Documents/github_money/youbot/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/wuxianlin/Documents/github_money/youbot/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/wuxianlin/Documents/github_money/youbot/node_modules/koa-compose/index.js:45:18)
+    at /Users/wuxianlin/Documents/github_money/youbot/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/wuxianlin/Documents/github_money/youbot/node_modules/koa-compose/index.js:44:32)
+    at /Users/wuxianlin/Documents/github_money/youbot/node_modules/koa-compose/index.js:36:12
+
+pid: 37982
+hostname: wuxianlindeMBP.lan
+
+2023-03-02 23:19:15,667 ERROR 37982 [-/127.0.0.1/-/2ms POST /chat] nodejs.TypeError: Cannot read properties of undefined (reading 'question')
+    at HomeController.chat (/Users/wuxianlin/Documents/github_money/youbot/app/controller/home.js:14:34)
+    at Object.callFn (/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/wuxianlin/Documents/github_money/youbot/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/wuxianlin/Documents/github_money/youbot/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/wuxianlin/Documents/github_money/youbot/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/wuxianlin/Documents/github_money/youbot/node_modules/koa-compose/index.js:45:18)
+    at /Users/wuxianlin/Documents/github_money/youbot/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/wuxianlin/Documents/github_money/youbot/node_modules/koa-compose/index.js:44:32)
+    at /Users/wuxianlin/Documents/github_money/youbot/node_modules/koa-compose/index.js:36:12
+
+pid: 37982
+hostname: wuxianlindeMBP.lan
+
+2023-03-02 23:21:51,340 ERROR 38217 [-/127.0.0.1/-/43754ms POST /chat] nodejs.ProtocolError: Protocol error (Runtime.callFunctionOn): Target closed.
+    at /Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/Connection.js:330:24
+    at new Promise (<anonymous>)
+    at CDPSessionImpl.send (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/Connection.js:326:16)
+    at ExecutionContext._ExecutionContext_evaluate (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:237:46)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ExecutionContext.evaluate (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:143:16)
+    at async getResult (/Users/wuxianlin/Documents/github_money/youbot/broswer/index.js:30:15)
+    at async featch (/Users/wuxianlin/Documents/github_money/youbot/broswer/index.js:67:15)
+    at async HomeController.chat (/Users/wuxianlin/Documents/github_money/youbot/app/controller/home.js:14:18)
+    at async /Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+name: "ProtocolError"
+message: "Protocol error (Runtime.callFunctionOn): Target closed."
+pid: 38217
+hostname: wuxianlindeMBP.lan
+
+2023-03-02 23:26:52,971 WARN 38541 [-/127.0.0.1/-/12ms POST /chat] nodejs.SyntaxError: Unexpected token q in JSON at position 36, check bodyParser config
+    at JSON.parse (<anonymous>)
+    at parse (/Users/wuxianlin/Documents/github_money/youbot/node_modules/co-body/lib/json.js:57:17)
+    at AsyncFunction.module.exports [as json] (/Users/wuxianlin/Documents/github_money/youbot/node_modules/co-body/lib/json.js:41:20)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async parseBody (/Users/wuxianlin/Documents/github_money/youbot/node_modules/koa-bodyparser/index.js:100:14)
+    at async bodyParser (/Users/wuxianlin/Documents/github_money/youbot/node_modules/koa-bodyparser/index.js:85:19)
+    at async /Users/wuxianlin/Documents/github_money/youbot/node_modules/koa-static-cache/index.js:39:63
+    at async notfound (/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/app/middleware/meta.js:12:5)
+    at async /Users/wuxianlin/Documents/github_money/youbot/node_modules/koa/lib/application.js:242:16
+status: 400
+body: "{\n\t\"text\": \"可以详细点吗\",\n\t\"history\": [{ question: \"帮我写一份前端周报\", answer: \"送了三天外卖\" }]\n}"
+pid: 38541
+hostname: wuxianlindeMBP.lan
+
+2023-03-02 23:27:18,392 WARN 38558 [-/127.0.0.1/-/10ms POST /chat] nodejs.SyntaxError: Unexpected token q in JSON at position 36, check bodyParser config
+    at JSON.parse (<anonymous>)
+    at parse (/Users/wuxianlin/Documents/github_money/youbot/node_modules/co-body/lib/json.js:57:17)
+    at AsyncFunction.module.exports [as json] (/Users/wuxianlin/Documents/github_money/youbot/node_modules/co-body/lib/json.js:41:20)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async parseBody (/Users/wuxianlin/Documents/github_money/youbot/node_modules/koa-bodyparser/index.js:100:14)
+    at async bodyParser (/Users/wuxianlin/Documents/github_money/youbot/node_modules/koa-bodyparser/index.js:85:19)
+    at async /Users/wuxianlin/Documents/github_money/youbot/node_modules/koa-static-cache/index.js:39:63
+    at async notfound (/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg/app/middleware/meta.js:12:5)
+    at async /Users/wuxianlin/Documents/github_money/youbot/node_modules/koa/lib/application.js:242:16
+status: 400
+body: "{\n\t\"text\": \"可以详细点吗\",\n\t\"history\": [{ question: \"帮我写一份前端周报\", answer: \"送了三天外卖\" }]\n}"
+pid: 38558
+hostname: wuxianlindeMBP.lan
+
+2023-03-02 23:28:52,486 ERROR 38589 [-/127.0.0.1/-/13ms POST /chat] nodejs.SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at HomeController.chat (/Users/wuxianlin/Documents/github_money/youbot/app/controller/home.js:13:36)
+    at Object.callFn (/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/wuxianlin/Documents/github_money/youbot/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/wuxianlin/Documents/github_money/youbot/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/wuxianlin/Documents/github_money/youbot/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/wuxianlin/Documents/github_money/youbot/node_modules/koa-compose/index.js:45:18)
+    at /Users/wuxianlin/Documents/github_money/youbot/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/wuxianlin/Documents/github_money/youbot/node_modules/koa-compose/index.js:44:32)
+
+pid: 38589
+hostname: wuxianlindeMBP.lan
+
+2023-03-02 23:30:56,920 ERROR 38627 [-/127.0.0.1/-/33525ms POST /chat] nodejs.ProtocolError: Protocol error (Runtime.callFunctionOn): Target closed.
+    at /Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/Connection.js:330:24
+    at new Promise (<anonymous>)
+    at CDPSessionImpl.send (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/Connection.js:326:16)
+    at ExecutionContext._ExecutionContext_evaluate (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:237:46)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ExecutionContext.evaluate (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:143:16)
+    at async getResult (/Users/wuxianlin/Documents/github_money/youbot/broswer/index.js:30:15)
+    at async featch (/Users/wuxianlin/Documents/github_money/youbot/broswer/index.js:67:15)
+    at async HomeController.chat (/Users/wuxianlin/Documents/github_money/youbot/app/controller/home.js:19:20)
+    at async /Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+name: "ProtocolError"
+message: "Protocol error (Runtime.callFunctionOn): Target closed."
+pid: 38627
+hostname: wuxianlindeMBP.lan
+
+2023-03-02 23:31:16,340 ERROR 38664 [-/127.0.0.1/-/7496ms POST /chat] nodejs.ProtocolError: Protocol error (Runtime.callFunctionOn): Target closed.
+    at /Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/Connection.js:330:24
+    at new Promise (<anonymous>)
+    at CDPSessionImpl.send (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/Connection.js:326:16)
+    at ExecutionContext._ExecutionContext_evaluate (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:237:46)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ExecutionContext.evaluate (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:143:16)
+    at async getResult (/Users/wuxianlin/Documents/github_money/youbot/broswer/index.js:30:15)
+    at async featch (/Users/wuxianlin/Documents/github_money/youbot/broswer/index.js:67:15)
+    at async HomeController.chat (/Users/wuxianlin/Documents/github_money/youbot/app/controller/home.js:19:20)
+    at async /Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+name: "ProtocolError"
+message: "Protocol error (Runtime.callFunctionOn): Target closed."
+pid: 38664
+hostname: wuxianlindeMBP.lan
+
+2023-03-02 23:35:20,016 ERROR 38928 [-/127.0.0.1/-/39214ms POST /chat] nodejs.ProtocolError: Protocol error (Runtime.callFunctionOn): Target closed.
+    at /Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/Connection.js:330:24
+    at new Promise (<anonymous>)
+    at CDPSessionImpl.send (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/Connection.js:326:16)
+    at ExecutionContext._ExecutionContext_evaluate (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:237:46)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ExecutionContext.evaluate (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:143:16)
+    at async getResult (/Users/wuxianlin/Documents/github_money/youbot/broswer/index.js:32:15)
+    at async featch (/Users/wuxianlin/Documents/github_money/youbot/broswer/index.js:69:15)
+    at async HomeController.chat (/Users/wuxianlin/Documents/github_money/youbot/app/controller/home.js:19:20)
+    at async /Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+name: "ProtocolError"
+message: "Protocol error (Runtime.callFunctionOn): Target closed."
+pid: 38928
+hostname: wuxianlindeMBP.lan
+
+2023-03-03 09:21:57,819 ERROR 39299 [-/127.0.0.1/-/7ms POST /chat] nodejs.Error: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+    at CDPSessionImpl.send (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/Connection.js:317:35)
+    at ExecutionContext._ExecutionContext_evaluate (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:237:46)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ExecutionContext.evaluate (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:143:16)
+    at async getResult (/Users/wuxianlin/Documents/github_money/youbot/broswer/index.js:32:15)
+    at async featch (/Users/wuxianlin/Documents/github_money/youbot/broswer/index.js:69:15)
+    at async HomeController.chat (/Users/wuxianlin/Documents/github_money/youbot/app/controller/home.js:14:20)
+    at async /Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+
+pid: 39299
+hostname: wuxianlindeMacBook-Pro.local
+
+2023-03-03 09:28:46,610 ERROR 41128 [-/127.0.0.1/-/1353ms POST /chat] nodejs.Error: net::ERR_CONNECTION_CLOSED at https://you.com/search?q=undefined&fromSearchBar=true&tbm=youchat
+    at navigate (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/Frame.js:240:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Frame.goto (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/Frame.js:206:21)
+    at async CDPPage.goto (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/Page.js:439:16)
+    at async buildPage (/Users/wuxianlin/Documents/github_money/youbot/broswer/index.js:25:3)
+    at async featch (/Users/wuxianlin/Documents/github_money/youbot/broswer/index.js:73:16)
+    at async HomeController.chat (/Users/wuxianlin/Documents/github_money/youbot/app/controller/home.js:14:20)
+    at async /Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+
+pid: 41128
+hostname: wuxianlindeMacBook-Pro.local
+
+2023-03-03 09:30:01,187 ERROR 41128 [-/127.0.0.1/-/10048ms POST /chat] nodejs.ProtocolError: Protocol error (Runtime.callFunctionOn): Target closed.
+    at /Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/Connection.js:330:24
+    at new Promise (<anonymous>)
+    at CDPSessionImpl.send (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/Connection.js:326:16)
+    at ExecutionContext._ExecutionContext_evaluate (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:237:46)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ExecutionContext.evaluate (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:143:16)
+    at async getResult (/Users/wuxianlin/Documents/github_money/youbot/broswer/index.js:37:15)
+    at async featch (/Users/wuxianlin/Documents/github_money/youbot/broswer/index.js:74:15)
+    at async HomeController.chat (/Users/wuxianlin/Documents/github_money/youbot/app/controller/home.js:14:20)
+    at async /Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+name: "ProtocolError"
+message: "Protocol error (Runtime.callFunctionOn): Target closed."
+pid: 41128
+hostname: wuxianlindeMacBook-Pro.local
+
+2023-03-03 09:30:04,801 ERROR 41128 [-/127.0.0.1/-/3ms POST /chat] nodejs.Error: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+    at CDPSessionImpl.send (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/Connection.js:317:35)
+    at ExecutionContext._ExecutionContext_evaluate (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:237:46)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ExecutionContext.evaluate (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:143:16)
+    at async getResult (/Users/wuxianlin/Documents/github_money/youbot/broswer/index.js:37:15)
+    at async featch (/Users/wuxianlin/Documents/github_money/youbot/broswer/index.js:74:15)
+    at async HomeController.chat (/Users/wuxianlin/Documents/github_money/youbot/app/controller/home.js:14:20)
+    at async /Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+
+pid: 41128
+hostname: wuxianlindeMacBook-Pro.local
+
+2023-03-03 09:31:52,135 ERROR 41463 [-/127.0.0.1/-/6ms POST /chat] nodejs.Error: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+    at CDPSessionImpl.send (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/Connection.js:317:35)
+    at ExecutionContext._ExecutionContext_evaluate (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:237:46)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ExecutionContext.evaluate (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:143:16)
+    at async getResult (/Users/wuxianlin/Documents/github_money/youbot/broswer/index.js:37:15)
+    at async featch (/Users/wuxianlin/Documents/github_money/youbot/broswer/index.js:74:15)
+    at async HomeController.chat (/Users/wuxianlin/Documents/github_money/youbot/app/controller/home.js:14:20)
+    at async /Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+
+pid: 41463
+hostname: wuxianlindeMacBook-Pro.local
+
+2023-03-03 09:34:46,592 ERROR 41736 [-/127.0.0.1/-/1149ms POST /chat] nodejs.ReferenceError: window is not defined
+    at buildBrowser (/Users/wuxianlin/Documents/github_money/youbot/broswer/index.js:10:3)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async featch (/Users/wuxianlin/Documents/github_money/youbot/broswer/index.js:72:19)
+    at async HomeController.chat (/Users/wuxianlin/Documents/github_money/youbot/app/controller/home.js:14:20)
+    at async /Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/wuxianlin/Documents/github_money/youbot/node_modules/koa-session/index.js:41:7)
+
+pid: 41736
+hostname: wuxianlindeMacBook-Pro.local
+
+2023-03-03 09:36:35,523 ERROR 41861 [-/127.0.0.1/-/6ms POST /chat] nodejs.Error: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+    at CDPSessionImpl.send (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/Connection.js:317:35)
+    at ExecutionContext._ExecutionContext_evaluate (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:237:46)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ExecutionContext.evaluate (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:143:16)
+    at async getResult (/Users/wuxianlin/Documents/github_money/youbot/broswer/index.js:32:15)
+    at async featch (/Users/wuxianlin/Documents/github_money/youbot/broswer/index.js:74:15)
+    at async HomeController.chat (/Users/wuxianlin/Documents/github_money/youbot/app/controller/home.js:14:20)
+    at async /Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+
+pid: 41861
+hostname: wuxianlindeMacBook-Pro.local
+
+2023-03-03 09:37:51,874 ERROR 42055 [-/127.0.0.1/-/7ms POST /chat] nodejs.Error: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+    at CDPSessionImpl.send (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/Connection.js:317:35)
+    at ExecutionContext._ExecutionContext_evaluate (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:237:46)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ExecutionContext.evaluate (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:143:16)
+    at async getResult (/Users/wuxianlin/Documents/github_money/youbot/broswer/index.js:32:15)
+    at async featch (/Users/wuxianlin/Documents/github_money/youbot/broswer/index.js:74:15)
+    at async HomeController.chat (/Users/wuxianlin/Documents/github_money/youbot/app/controller/home.js:14:20)
+    at async /Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+
+pid: 42055
+hostname: wuxianlindeMacBook-Pro.local
+
+2023-03-03 09:40:06,034 ERROR 42190 [-/127.0.0.1/-/2227ms POST /chat] nodejs.Error: Evaluation failed: ReferenceError: browser is not defined
+    at pptr://__puppeteer_evaluation_script__:3:7
+    at pptr://__puppeteer_evaluation_script__:3:7
+    at ExecutionContext._ExecutionContext_evaluate (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:255:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ExecutionContext.evaluate (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:143:16)
+    at async getResult (/Users/wuxianlin/Documents/github_money/youbot/broswer/index.js:32:15)
+    at async featch (/Users/wuxianlin/Documents/github_money/youbot/broswer/index.js:75:15)
+    at async HomeController.chat (/Users/wuxianlin/Documents/github_money/youbot/app/controller/home.js:14:20)
+    at async /Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+
+pid: 42190
+hostname: wuxianlindeMacBook-Pro.local
+
+2023-03-03 09:41:28,081 ERROR 42301 [-/127.0.0.1/-/6ms POST /chat] nodejs.Error: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+    at CDPSessionImpl.send (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/Connection.js:317:35)
+    at ExecutionContext._ExecutionContext_evaluate (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:237:46)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ExecutionContext.evaluate (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:143:16)
+    at async getResult (/Users/wuxianlin/Documents/github_money/youbot/broswer/index.js:38:15)
+    at async featch (/Users/wuxianlin/Documents/github_money/youbot/broswer/index.js:75:15)
+    at async HomeController.chat (/Users/wuxianlin/Documents/github_money/youbot/app/controller/home.js:14:20)
+    at async /Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+
+pid: 42301
+hostname: wuxianlindeMacBook-Pro.local
+
+2023-03-03 09:43:40,141 ERROR 42538 [-/127.0.0.1/-/1075ms POST /chat] nodejs.Error: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+    at CDPSessionImpl.send (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/Connection.js:317:35)
+    at ExecutionContext._ExecutionContext_evaluate (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:237:46)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ExecutionContext.evaluate (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:143:16)
+    at async getResult (/Users/wuxianlin/Documents/github_money/youbot/broswer/index.js:39:15)
+    at async featch (/Users/wuxianlin/Documents/github_money/youbot/broswer/index.js:76:15)
+    at async HomeController.chat (/Users/wuxianlin/Documents/github_money/youbot/app/controller/home.js:14:20)
+    at async /Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+
+pid: 42538
+hostname: wuxianlindeMacBook-Pro.local
+
+2023-03-03 09:44:56,337 ERROR 42682 [-/127.0.0.1/-/1098ms POST /chat] nodejs.Error: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+    at CDPSessionImpl.send (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/Connection.js:317:35)
+    at ExecutionContext._ExecutionContext_evaluate (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:237:46)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ExecutionContext.evaluate (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:143:16)
+    at async getResult (/Users/wuxianlin/Documents/github_money/youbot/broswer/index.js:39:15)
+    at async featch (/Users/wuxianlin/Documents/github_money/youbot/broswer/index.js:76:15)
+    at async HomeController.chat (/Users/wuxianlin/Documents/github_money/youbot/app/controller/home.js:14:20)
+    at async /Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+
+pid: 42682
+hostname: wuxianlindeMacBook-Pro.local
+
+2023-03-03 09:45:54,651 ERROR 42820 [-/127.0.0.1/-/1118ms POST /chat] nodejs.Error: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+    at CDPSessionImpl.send (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/Connection.js:317:35)
+    at ExecutionContext._ExecutionContext_evaluate (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:237:46)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ExecutionContext.evaluate (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:143:16)
+    at async getResult (/Users/wuxianlin/Documents/github_money/youbot/broswer/index.js:39:15)
+    at async featch (/Users/wuxianlin/Documents/github_money/youbot/broswer/index.js:76:15)
+    at async HomeController.chat (/Users/wuxianlin/Documents/github_money/youbot/app/controller/home.js:14:20)
+    at async /Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+
+pid: 42820
+hostname: wuxianlindeMacBook-Pro.local
+
+2023-03-03 11:09:49,233 ERROR 48849 [-/127.0.0.1/-/91236ms POST /chat] nodejs.ProtocolError: Protocol error (Runtime.callFunctionOn): Target closed.
+    at /Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/Connection.js:330:24
+    at new Promise (<anonymous>)
+    at CDPSessionImpl.send (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/Connection.js:326:16)
+    at ExecutionContext._ExecutionContext_evaluate (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:237:46)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ExecutionContext.evaluate (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:143:16)
+    at async getResult (/Users/wuxianlin/Documents/github_money/youbot/broswer/index.js:41:15)
+    at async featch (/Users/wuxianlin/Documents/github_money/youbot/broswer/index.js:78:15)
+    at async HomeController.chat (/Users/wuxianlin/Documents/github_money/youbot/app/controller/home.js:14:20)
+    at async /Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+name: "ProtocolError"
+message: "Protocol error (Runtime.callFunctionOn): Target closed."
+pid: 48849
+hostname: wuxianlindeMacBook-Pro.local
+
+2023-03-03 11:15:07,999 ERROR 48849 [-/127.0.0.1/-/311901ms POST /chat] nodejs.ProtocolError: Protocol error (Runtime.callFunctionOn): Target closed.
+    at /Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/Connection.js:330:24
+    at new Promise (<anonymous>)
+    at CDPSessionImpl.send (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/Connection.js:326:16)
+    at ExecutionContext._ExecutionContext_evaluate (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:237:46)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ExecutionContext.evaluate (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:143:16)
+    at async getResult (/Users/wuxianlin/Documents/github_money/youbot/broswer/index.js:41:15)
+    at async featch (/Users/wuxianlin/Documents/github_money/youbot/broswer/index.js:78:15)
+    at async HomeController.chat (/Users/wuxianlin/Documents/github_money/youbot/app/controller/home.js:14:20)
+    at async /Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+name: "ProtocolError"
+message: "Protocol error (Runtime.callFunctionOn): Target closed."
+pid: 48849
+hostname: wuxianlindeMacBook-Pro.local
+
+2023-03-03 11:15:08,009 ERROR 48849 [-/127.0.0.1/-/141981ms POST /chat] nodejs.ProtocolError: Protocol error (Runtime.callFunctionOn): Target closed.
+    at /Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/Connection.js:330:24
+    at new Promise (<anonymous>)
+    at CDPSessionImpl.send (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/Connection.js:326:16)
+    at ExecutionContext._ExecutionContext_evaluate (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:237:46)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ExecutionContext.evaluate (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:143:16)
+    at async getResult (/Users/wuxianlin/Documents/github_money/youbot/broswer/index.js:41:15)
+    at async featch (/Users/wuxianlin/Documents/github_money/youbot/broswer/index.js:78:15)
+    at async HomeController.chat (/Users/wuxianlin/Documents/github_money/youbot/app/controller/home.js:14:20)
+    at async /Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+name: "ProtocolError"
+message: "Protocol error (Runtime.callFunctionOn): Target closed."
+pid: 48849
+hostname: wuxianlindeMacBook-Pro.local
+
+2023-03-03 11:15:08,018 ERROR 48849 [-/127.0.0.1/-/33854ms POST /chat] nodejs.ProtocolError: Protocol error (Runtime.callFunctionOn): Target closed.
+    at /Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/Connection.js:330:24
+    at new Promise (<anonymous>)
+    at CDPSessionImpl.send (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/Connection.js:326:16)
+    at ExecutionContext._ExecutionContext_evaluate (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:237:46)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ExecutionContext.evaluate (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:143:16)
+    at async getResult (/Users/wuxianlin/Documents/github_money/youbot/broswer/index.js:41:15)
+    at async featch (/Users/wuxianlin/Documents/github_money/youbot/broswer/index.js:78:15)
+    at async HomeController.chat (/Users/wuxianlin/Documents/github_money/youbot/app/controller/home.js:14:20)
+    at async /Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+name: "ProtocolError"
+message: "Protocol error (Runtime.callFunctionOn): Target closed."
+pid: 48849
+hostname: wuxianlindeMacBook-Pro.local
+
+2023-03-03 11:15:50,155 ERROR 48849 [-/127.0.0.1/-/31764ms POST /chat] nodejs.ProtocolError: Protocol error (Runtime.callFunctionOn): Target closed.
+    at /Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/Connection.js:330:24
+    at new Promise (<anonymous>)
+    at CDPSessionImpl.send (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/Connection.js:326:16)
+    at ExecutionContext._ExecutionContext_evaluate (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:237:46)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ExecutionContext.evaluate (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:143:16)
+    at async getResult (/Users/wuxianlin/Documents/github_money/youbot/broswer/index.js:41:15)
+    at async featch (/Users/wuxianlin/Documents/github_money/youbot/broswer/index.js:78:15)
+    at async HomeController.chat (/Users/wuxianlin/Documents/github_money/youbot/app/controller/home.js:14:20)
+    at async /Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+name: "ProtocolError"
+message: "Protocol error (Runtime.callFunctionOn): Target closed."
+pid: 48849
+hostname: wuxianlindeMacBook-Pro.local
+
+2023-03-03 11:20:52,769 ERROR 49433 [-/127.0.0.1/-/120742ms POST /chat] nodejs.ProtocolError: Protocol error (Runtime.callFunctionOn): Target closed.
+    at /Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/Connection.js:330:24
+    at new Promise (<anonymous>)
+    at CDPSessionImpl.send (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/Connection.js:326:16)
+    at ExecutionContext._ExecutionContext_evaluate (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:237:46)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ExecutionContext.evaluate (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:143:16)
+    at async getResult (/Users/wuxianlin/Documents/github_money/youbot/broswer/index.js:41:15)
+    at async featch (/Users/wuxianlin/Documents/github_money/youbot/broswer/index.js:78:15)
+    at async HomeController.chat (/Users/wuxianlin/Documents/github_money/youbot/app/controller/home.js:14:20)
+    at async /Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+name: "ProtocolError"
+message: "Protocol error (Runtime.callFunctionOn): Target closed."
+pid: 49433
+hostname: wuxianlindeMacBook-Pro.local
+
+2023-03-03 11:20:52,815 ERROR 49433 [-/127.0.0.1/-/51984ms POST /chat] nodejs.ProtocolError: Protocol error (Runtime.callFunctionOn): Target closed.
+    at /Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/Connection.js:330:24
+    at new Promise (<anonymous>)
+    at CDPSessionImpl.send (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/Connection.js:326:16)
+    at ExecutionContext._ExecutionContext_evaluate (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:237:46)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ExecutionContext.evaluate (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:143:16)
+    at async getResult (/Users/wuxianlin/Documents/github_money/youbot/broswer/index.js:41:15)
+    at async featch (/Users/wuxianlin/Documents/github_money/youbot/broswer/index.js:78:15)
+    at async HomeController.chat (/Users/wuxianlin/Documents/github_money/youbot/app/controller/home.js:14:20)
+    at async /Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+name: "ProtocolError"
+message: "Protocol error (Runtime.callFunctionOn): Target closed."
+pid: 49433
+hostname: wuxianlindeMacBook-Pro.local
+
+2023-03-03 11:21:54,958 ERROR 49762 [-/127.0.0.1/-/41671ms POST /chat] nodejs.ProtocolError: Protocol error (Runtime.callFunctionOn): Target closed.
+    at /Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/Connection.js:330:24
+    at new Promise (<anonymous>)
+    at CDPSessionImpl.send (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/Connection.js:326:16)
+    at ExecutionContext._ExecutionContext_evaluate (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:237:46)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ExecutionContext.evaluate (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:143:16)
+    at async getResult (/Users/wuxianlin/Documents/github_money/youbot/broswer/index.js:41:15)
+    at async featch (/Users/wuxianlin/Documents/github_money/youbot/broswer/index.js:78:15)
+    at async HomeController.chat (/Users/wuxianlin/Documents/github_money/youbot/app/controller/home.js:14:20)
+    at async /Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+name: "ProtocolError"
+message: "Protocol error (Runtime.callFunctionOn): Target closed."
+pid: 49762
+hostname: wuxianlindeMacBook-Pro.local
+
+2023-03-03 16:06:45,289 ERROR 55248 [-/127.0.0.1/-/58041ms POST /chat] nodejs.ProtocolError: Protocol error (Runtime.callFunctionOn): Target closed.
+    at /Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/Connection.js:330:24
+    at new Promise (<anonymous>)
+    at CDPSessionImpl.send (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/Connection.js:326:16)
+    at ExecutionContext._ExecutionContext_evaluate (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:237:46)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ExecutionContext.evaluate (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:143:16)
+    at async getResult (/Users/wuxianlin/Documents/github_money/youbot/broswer/index.js:41:15)
+    at async featch (/Users/wuxianlin/Documents/github_money/youbot/broswer/index.js:78:15)
+    at async HomeController.chat (/Users/wuxianlin/Documents/github_money/youbot/app/controller/home.js:14:20)
+    at async /Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+name: "ProtocolError"
+message: "Protocol error (Runtime.callFunctionOn): Target closed."
+pid: 55248
+hostname: wuxianlindeMacBook-Pro.local
+
+2023-03-03 16:07:39,122 ERROR 55248 [-/127.0.0.1/-/48273ms POST /chat] nodejs.ProtocolError: Protocol error (Runtime.callFunctionOn): Target closed.
+    at /Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/Connection.js:330:24
+    at new Promise (<anonymous>)
+    at CDPSessionImpl.send (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/Connection.js:326:16)
+    at ExecutionContext._ExecutionContext_evaluate (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:237:46)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ExecutionContext.evaluate (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:143:16)
+    at async getResult (/Users/wuxianlin/Documents/github_money/youbot/broswer/index.js:41:15)
+    at async featch (/Users/wuxianlin/Documents/github_money/youbot/broswer/index.js:78:15)
+    at async HomeController.chat (/Users/wuxianlin/Documents/github_money/youbot/app/controller/home.js:14:20)
+    at async /Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+name: "ProtocolError"
+message: "Protocol error (Runtime.callFunctionOn): Target closed."
+pid: 55248
+hostname: wuxianlindeMacBook-Pro.local
+
+2023-03-03 16:08:28,294 ERROR 55248 [-/127.0.0.1/-/44611ms POST /chat] nodejs.ProtocolError: Protocol error (Runtime.callFunctionOn): Target closed.
+    at /Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/Connection.js:330:24
+    at new Promise (<anonymous>)
+    at CDPSessionImpl.send (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/Connection.js:326:16)
+    at ExecutionContext._ExecutionContext_evaluate (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:237:46)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ExecutionContext.evaluate (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:143:16)
+    at async getResult (/Users/wuxianlin/Documents/github_money/youbot/broswer/index.js:41:15)
+    at async featch (/Users/wuxianlin/Documents/github_money/youbot/broswer/index.js:78:15)
+    at async HomeController.chat (/Users/wuxianlin/Documents/github_money/youbot/app/controller/home.js:14:20)
+    at async /Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+name: "ProtocolError"
+message: "Protocol error (Runtime.callFunctionOn): Target closed."
+pid: 55248
+hostname: wuxianlindeMacBook-Pro.local
+
+2023-03-03 16:08:28,295 ERROR 55248 [-/127.0.0.1/-/18322ms POST /chat] nodejs.ProtocolError: Protocol error (Runtime.callFunctionOn): Target closed.
+    at /Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/Connection.js:330:24
+    at new Promise (<anonymous>)
+    at CDPSessionImpl.send (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/Connection.js:326:16)
+    at ExecutionContext._ExecutionContext_evaluate (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:237:46)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ExecutionContext.evaluate (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:143:16)
+    at async getResult (/Users/wuxianlin/Documents/github_money/youbot/broswer/index.js:41:15)
+    at async featch (/Users/wuxianlin/Documents/github_money/youbot/broswer/index.js:78:15)
+    at async HomeController.chat (/Users/wuxianlin/Documents/github_money/youbot/app/controller/home.js:14:20)
+    at async /Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+name: "ProtocolError"
+message: "Protocol error (Runtime.callFunctionOn): Target closed."
+pid: 55248
+hostname: wuxianlindeMacBook-Pro.local
+
+2023-03-03 16:11:44,787 ERROR 55248 [-/127.0.0.1/-/83818ms POST /chat] nodejs.ProtocolError: Protocol error (Runtime.callFunctionOn): Target closed.
+    at /Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/Connection.js:330:24
+    at new Promise (<anonymous>)
+    at CDPSessionImpl.send (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/Connection.js:326:16)
+    at ExecutionContext._ExecutionContext_evaluate (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:237:46)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ExecutionContext.evaluate (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:143:16)
+    at async getResult (/Users/wuxianlin/Documents/github_money/youbot/broswer/index.js:41:15)
+    at async featch (/Users/wuxianlin/Documents/github_money/youbot/broswer/index.js:78:15)
+    at async HomeController.chat (/Users/wuxianlin/Documents/github_money/youbot/app/controller/home.js:14:20)
+name: "ProtocolError"
+message: "Protocol error (Runtime.callFunctionOn): Target closed."
+pid: 55248
+hostname: wuxianlindeMacBook-Pro.local
+
+2023-03-08 17:48:45,784 ERROR 23833 [-/127.0.0.1/-/5ms POST /chat?text=%E4%BD%A0%E5%A5%BD&id=] nodejs.TypeError: Assignment to constant variable.
+    at HomeController.chat (/Users/wuxianlin/Documents/github_money/youbot/app/controller/home.js:14:47)
+    at Object.callFn (/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/wuxianlin/Documents/github_money/youbot/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/wuxianlin/Documents/github_money/youbot/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/wuxianlin/Documents/github_money/youbot/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/wuxianlin/Documents/github_money/youbot/node_modules/koa-compose/index.js:45:18)
+    at /Users/wuxianlin/Documents/github_money/youbot/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/wuxianlin/Documents/github_money/youbot/node_modules/koa-compose/index.js:44:32)
+    at /Users/wuxianlin/Documents/github_money/youbot/node_modules/koa-compose/index.js:36:12
+
+pid: 23833
+hostname: wuxianlindeMacBook-Pro.local
+
+2023-03-08 17:50:43,638 ERROR 23833 [-/127.0.0.1/-/17ms POST /chat] nodejs.TypeError: Assignment to constant variable.
+    at HomeController.chat (/Users/wuxianlin/Documents/github_money/youbot/app/controller/home.js:14:47)
+    at Object.callFn (/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/wuxianlin/Documents/github_money/youbot/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/wuxianlin/Documents/github_money/youbot/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/wuxianlin/Documents/github_money/youbot/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/wuxianlin/Documents/github_money/youbot/node_modules/koa-compose/index.js:45:18)
+    at /Users/wuxianlin/Documents/github_money/youbot/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/wuxianlin/Documents/github_money/youbot/node_modules/koa-compose/index.js:44:32)
+    at /Users/wuxianlin/Documents/github_money/youbot/node_modules/koa-compose/index.js:36:12
+
+pid: 23833
+hostname: wuxianlindeMacBook-Pro.local
+
+2023-03-08 17:50:56,686 ERROR 23939 [-/127.0.0.1/-/21ms POST /chat] nodejs.TypeError: Assignment to constant variable.
+    at HomeController.chat (/Users/wuxianlin/Documents/github_money/youbot/app/controller/home.js:14:47)
+    at Object.callFn (/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/wuxianlin/Documents/github_money/youbot/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/wuxianlin/Documents/github_money/youbot/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/wuxianlin/Documents/github_money/youbot/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/wuxianlin/Documents/github_money/youbot/node_modules/koa-compose/index.js:45:18)
+    at /Users/wuxianlin/Documents/github_money/youbot/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/wuxianlin/Documents/github_money/youbot/node_modules/koa-compose/index.js:44:32)
+    at /Users/wuxianlin/Documents/github_money/youbot/node_modules/koa-compose/index.js:36:12
+
+pid: 23939
+hostname: wuxianlindeMacBook-Pro.local
+
+2023-03-08 17:52:50,825 ERROR 24037 [-/127.0.0.1/-/19ms POST /chat] nodejs.TypeError: Assignment to constant variable.
+    at HomeController.chat (/Users/wuxianlin/Documents/github_money/youbot/app/controller/home.js:17:47)
+    at Object.callFn (/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/wuxianlin/Documents/github_money/youbot/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/wuxianlin/Documents/github_money/youbot/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/wuxianlin/Documents/github_money/youbot/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/wuxianlin/Documents/github_money/youbot/node_modules/koa-compose/index.js:45:18)
+    at /Users/wuxianlin/Documents/github_money/youbot/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/wuxianlin/Documents/github_money/youbot/node_modules/koa-compose/index.js:44:32)
+    at /Users/wuxianlin/Documents/github_money/youbot/node_modules/koa-compose/index.js:36:12
+
+pid: 24037
+hostname: wuxianlindeMacBook-Pro.local
+
+2023-03-08 17:53:31,304 ERROR 24126 [-/127.0.0.1/-/12ms POST /chat] nodejs.TypeError: Assignment to constant variable.
+    at HomeController.chat (/Users/wuxianlin/Documents/github_money/youbot/app/controller/home.js:17:47)
+    at Object.callFn (/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/wuxianlin/Documents/github_money/youbot/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/wuxianlin/Documents/github_money/youbot/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/wuxianlin/Documents/github_money/youbot/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/wuxianlin/Documents/github_money/youbot/node_modules/koa-compose/index.js:45:18)
+    at /Users/wuxianlin/Documents/github_money/youbot/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/wuxianlin/Documents/github_money/youbot/node_modules/koa-compose/index.js:44:32)
+    at /Users/wuxianlin/Documents/github_money/youbot/node_modules/koa-compose/index.js:36:12
+
+pid: 24126
+hostname: wuxianlindeMacBook-Pro.local
+
