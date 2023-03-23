@@ -762,3 +762,131 @@ hostname: wuxianlindeMacBook-Pro.local
 pid: 24126
 hostname: wuxianlindeMacBook-Pro.local
 
+2023-03-22 10:31:16,268 ERROR 11097 [-/127.0.0.1/-/6225ms POST /videoParse?text=https://v.douyin.com/A1NXDK3/] nodejs.Error: Evaluation failed: TypeError: Cannot read properties of null (reading '__vue__')
+    at pptr://__puppeteer_evaluation_script__:8:13
+    at new Promise (<anonymous>)
+    at pptr://__puppeteer_evaluation_script__:4:14
+    at pptr://__puppeteer_evaluation_script__:8:13
+    at new Promise (<anonymous>)
+    at pptr://__puppeteer_evaluation_script__:4:14
+    at ExecutionContext._ExecutionContext_evaluate (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:255:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ExecutionContext.evaluate (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:143:16)
+    at async getResult (/Users/wuxianlin/Documents/github_money/youbot/broswer/video.js:33:15)
+    at async featch (/Users/wuxianlin/Documents/github_money/youbot/broswer/video.js:64:15)
+    at async HomeController.videoParse (/Users/wuxianlin/Documents/github_money/youbot/app/controller/home.js:26:20)
+    at async /Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+
+pid: 11097
+hostname: wuxianlindeMacBook-Pro.local
+
+2023-03-22 10:39:31,861 ERROR 11502 [-/127.0.0.1/-/2552ms POST /videoParse?text=https://v.douyin.com/A1NXDK3/] nodejs.Error: Evaluation failed: TypeError: Cannot read properties of undefined (reading 'lastIndexOf')
+    at nt.submit (https://weibo.iiilab.com/static/js/vue-resource.min.js?v27:1:1956)
+    at nt.n [as submit] (https://lib.baomitu.com/vue/2.2.6/vue.min.js:6:839)
+    at pptr://__puppeteer_evaluation_script__:8:21
+    at new Promise (<anonymous>)
+    at pptr://__puppeteer_evaluation_script__:4:14
+    at nt.submit (https://weibo.iiilab.com/static/js/vue-resource.min.js?v27:1:1956)
+    at nt.n [as submit] (https://lib.baomitu.com/vue/2.2.6/vue.min.js:6:839)
+    at pptr://__puppeteer_evaluation_script__:8:21
+    at new Promise (<anonymous>)
+    at pptr://__puppeteer_evaluation_script__:4:14
+    at ExecutionContext._ExecutionContext_evaluate (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:255:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ExecutionContext.evaluate (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:143:16)
+    at async getResult (/Users/wuxianlin/Documents/github_money/youbot/broswer/video.js:33:15)
+    at async featch (/Users/wuxianlin/Documents/github_money/youbot/broswer/video.js:65:15)
+    at async HomeController.videoParse (/Users/wuxianlin/Documents/github_money/youbot/app/controller/home.js:26:20)
+    at async /Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+
+pid: 11502
+hostname: wuxianlindeMacBook-Pro.local
+
+2023-03-22 14:56:30,148 ERROR 13613 [-/127.0.0.1/-/19113ms POST /videoParse?text=] nodejs.ProtocolError: Protocol error (Runtime.callFunctionOn): Target closed.
+    at /Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/Connection.js:330:24
+    at new Promise (<anonymous>)
+    at CDPSessionImpl.send (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/Connection.js:326:16)
+    at ExecutionContext._ExecutionContext_evaluate (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:237:46)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ExecutionContext.evaluate (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:143:16)
+    at async getResult (/Users/wuxianlin/Documents/github_money/youbot/broswer/video.js:33:15)
+    at async featch (/Users/wuxianlin/Documents/github_money/youbot/broswer/video.js:124:15)
+    at async HomeController.videoParse (/Users/wuxianlin/Documents/github_money/youbot/app/controller/home.js:26:20)
+    at async /Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+name: "ProtocolError"
+message: "Protocol error (Runtime.callFunctionOn): Target closed."
+pid: 13613
+hostname: wuxianlindeMacBook-Pro.local
+
+2023-03-22 14:57:56,262 ERROR 13781 [-/127.0.0.1/-/18374ms POST /videoParse?text=] nodejs.ProtocolError: Protocol error (Runtime.callFunctionOn): Target closed.
+    at /Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/Connection.js:330:24
+    at new Promise (<anonymous>)
+    at CDPSessionImpl.send (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/Connection.js:326:16)
+    at ExecutionContext._ExecutionContext_evaluate (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:237:46)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ExecutionContext.evaluate (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:143:16)
+    at async getResult (/Users/wuxianlin/Documents/github_money/youbot/broswer/video.js:33:15)
+    at async featch (/Users/wuxianlin/Documents/github_money/youbot/broswer/video.js:124:15)
+    at async HomeController.videoParse (/Users/wuxianlin/Documents/github_money/youbot/app/controller/home.js:26:20)
+    at async /Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+name: "ProtocolError"
+message: "Protocol error (Runtime.callFunctionOn): Target closed."
+pid: 13781
+hostname: wuxianlindeMacBook-Pro.local
+
+2023-03-22 14:58:55,422 ERROR 13988 [-/127.0.0.1/-/2438ms POST /videoParse?text=] nodejs.Error: Evaluation failed: TypeError: Cannot read properties of undefined (reading 'lastIndexOf')
+    at nt.submit (https://weibo.iiilab.com/static/js/vue-resource.min.js?v27:1:1956)
+    at nt.n [as submit] (https://lib.baomitu.com/vue/2.2.6/vue.min.js:6:839)
+    at pptr://__puppeteer_evaluation_script__:64:15
+    at new Promise (<anonymous>)
+    at pptr://__puppeteer_evaluation_script__:4:14
+    at nt.submit (https://weibo.iiilab.com/static/js/vue-resource.min.js?v27:1:1956)
+    at nt.n [as submit] (https://lib.baomitu.com/vue/2.2.6/vue.min.js:6:839)
+    at pptr://__puppeteer_evaluation_script__:64:15
+    at new Promise (<anonymous>)
+    at pptr://__puppeteer_evaluation_script__:4:14
+    at ExecutionContext._ExecutionContext_evaluate (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:255:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ExecutionContext.evaluate (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:143:16)
+    at async getResult (/Users/wuxianlin/Documents/github_money/youbot/broswer/video.js:33:15)
+    at async featch (/Users/wuxianlin/Documents/github_money/youbot/broswer/video.js:121:15)
+    at async HomeController.videoParse (/Users/wuxianlin/Documents/github_money/youbot/app/controller/home.js:26:20)
+    at async /Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+
+pid: 13988
+hostname: wuxianlindeMacBook-Pro.local
+
+2023-03-22 14:59:29,641 ERROR 13988 [-/127.0.0.1/-/2576ms POST /videoParse?text=https://v.douyin.com/A1NXDK3/] nodejs.Error: Evaluation failed: TypeError: Cannot read properties of undefined (reading 'lastIndexOf')
+    at nt.submit (https://weibo.iiilab.com/static/js/vue-resource.min.js?v27:1:1956)
+    at nt.n [as submit] (https://lib.baomitu.com/vue/2.2.6/vue.min.js:6:839)
+    at pptr://__puppeteer_evaluation_script__:64:15
+    at new Promise (<anonymous>)
+    at pptr://__puppeteer_evaluation_script__:4:14
+    at nt.submit (https://weibo.iiilab.com/static/js/vue-resource.min.js?v27:1:1956)
+    at nt.n [as submit] (https://lib.baomitu.com/vue/2.2.6/vue.min.js:6:839)
+    at pptr://__puppeteer_evaluation_script__:64:15
+    at new Promise (<anonymous>)
+    at pptr://__puppeteer_evaluation_script__:4:14
+    at ExecutionContext._ExecutionContext_evaluate (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:255:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ExecutionContext.evaluate (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:143:16)
+    at async getResult (/Users/wuxianlin/Documents/github_money/youbot/broswer/video.js:33:15)
+    at async featch (/Users/wuxianlin/Documents/github_money/youbot/broswer/video.js:121:15)
+    at async HomeController.videoParse (/Users/wuxianlin/Documents/github_money/youbot/app/controller/home.js:26:20)
+    at async /Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+
+pid: 13988
+hostname: wuxianlindeMacBook-Pro.local
+
