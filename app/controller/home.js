@@ -89,7 +89,7 @@ class HomeController extends Controller {
     const { code } = body;
     ctx.body = {
       code: 200,
-      valid: codeMap[code]?.count > 0,
+      valid: codeMap[code] > 0,
     };
   }
 }
