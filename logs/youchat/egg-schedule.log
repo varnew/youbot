@@ -484,3 +484,9 @@
 2023-03-23 11:28:28,459 INFO 25269 [Timer] /Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 61291543ms at 2023-03-24 04:30:00.002
 2023-03-23 11:28:28,460 INFO 25269 [Timer] /Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 45091540ms at 2023-03-24 00:00:00.000
 2023-03-23 11:28:28,460 INFO 25269 [Timer] /Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 45092540ms at 2023-03-24 00:00:01.000
+2023-03-25 23:41:38,710 INFO 73555 [Timer] /Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 17301293ms at 2023-03-26 04:30:00.003
+2023-03-25 23:41:38,710 INFO 73555 [Timer] /Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 1101290ms at 2023-03-26 00:00:00.000
+2023-03-25 23:41:38,711 INFO 73555 [Timer] /Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 1102290ms at 2023-03-26 00:00:01.001
+2023-03-25 23:41:38,548 INFO 73560 [egg-schedule]: register schedule /Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2023-03-25 23:41:38,548 INFO 73560 [egg-schedule]: register schedule /Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-logrotator/app/schedule/clean_log.js
+2023-03-25 23:41:38,548 INFO 73560 [egg-schedule]: register schedule /Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
