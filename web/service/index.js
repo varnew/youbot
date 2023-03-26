@@ -1,7 +1,7 @@
 const express = require("express");
 const { createProxyMiddleware } = require("http-proxy-middleware");
 const app = express();
-const port = 80;
+const port = 7006;
 
 app.use(express.static(__dirname + "/dist/"));
 

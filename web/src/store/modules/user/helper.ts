@@ -19,7 +19,7 @@ export function defaultSetting(): UserState {
       avatar: 'https://raw.githubusercontent.com/Chanzhaoyu/chatgpt-web/main/src/assets/avatar.jpg',
       name: 'chatgpt',
       description: 'permanent free',
-      code: 'fjzf01',
+      code: '',
     },
   }
 }
