@@ -54,6 +54,7 @@ class HomeController extends Controller {
     }
   }
   async genCode() {
+    const { ctx } = this;
     function generateRandomKey() {
       const letters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
       const numbers = "0123456789";
