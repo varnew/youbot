@@ -90,6 +90,7 @@ class HomeController extends Controller {
     ctx.body = {
       code: 200,
       valid: codeMap[code] > 0,
+      code: codeMap[code],
     };
   }
 }

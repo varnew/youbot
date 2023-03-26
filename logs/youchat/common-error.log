@@ -955,3 +955,67 @@ hostname: wuxianlindeMacBook-Pro.local
 pid: 24583
 hostname: wuxianlindeMacBook-Pro.local
 
+2023-03-26 01:22:10,401 ERROR 75958 nodejs.ClusterClientNoResponseError: client no response in 1687606ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wuxianlin/Documents/github_money/youbot/node_modules/cluster-client/lib/leader.js:79:25)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 75958
+hostname: wuxianlindeMBP.lan
+
+2023-03-26 02:45:03,503 ERROR 75958 nodejs.ClusterClientNoResponseError: client no response in 931898ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wuxianlin/Documents/github_money/youbot/node_modules/cluster-client/lib/leader.js:79:25)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 75958
+hostname: wuxianlindeMBP.lan
+
+2023-03-26 02:58:07,556 ERROR 75958 nodejs.ClusterClientNoResponseError: client no response in 623931ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wuxianlin/Documents/github_money/youbot/node_modules/cluster-client/lib/leader.js:79:25)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 75958
+hostname: wuxianlindeMBP.lan
+
+2023-03-26 06:23:05,409 ERROR 75958 nodejs.ClusterClientNoResponseError: client no response in 5895991ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wuxianlin/Documents/github_money/youbot/node_modules/cluster-client/lib/leader.js:79:25)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 75958
+hostname: wuxianlindeMBP.lan
+
+2023-03-26 08:23:53,218 ERROR 75958 nodejs.ClusterClientNoResponseError: client no response in 7207198ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wuxianlin/Documents/github_money/youbot/node_modules/cluster-client/lib/leader.js:79:25)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 75958
+hostname: wuxianlindeMBP.lan
+
+2023-03-26 10:24:39,904 ERROR 75958 nodejs.ClusterClientNoResponseError: client no response in 7206960ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wuxianlin/Documents/github_money/youbot/node_modules/cluster-client/lib/leader.js:79:25)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 75958
+hostname: wuxianlindeMBP.lan
+
+2023-03-26 11:30:01,652 ERROR 75958 nodejs.ClusterClientNoResponseError: client no response in 3881966ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wuxianlin/Documents/github_money/youbot/node_modules/cluster-client/lib/leader.js:79:25)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 75958
+hostname: wuxianlindeMBP.lan
+
+2023-03-26 12:22:43,573 ERROR 75958 nodejs.ClusterClientNoResponseError: client no response in 1601528ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wuxianlin/Documents/github_money/youbot/node_modules/cluster-client/lib/leader.js:79:25)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 75958
+hostname: wuxianlindeMBP.lan
+

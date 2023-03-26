@@ -502,3 +502,21 @@
 2023-03-26 00:37:48,035 INFO 74783 [egg-schedule]: register schedule /Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
 2023-03-26 00:37:48,036 INFO 74783 [egg-schedule]: register schedule /Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-logrotator/app/schedule/clean_log.js
 2023-03-26 00:37:48,036 INFO 74783 [egg-schedule]: register schedule /Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2023-03-26 00:52:06,561 INFO 75963 [egg-schedule]: register schedule /Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2023-03-26 00:52:06,561 INFO 75963 [egg-schedule]: register schedule /Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-logrotator/app/schedule/clean_log.js
+2023-03-26 00:52:06,561 INFO 75963 [egg-schedule]: register schedule /Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2023-03-26 00:52:07,335 INFO 75958 [Timer] /Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 13072671ms at 2023-03-26 04:30:00.006
+2023-03-26 00:52:07,336 INFO 75958 [Timer] /Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 83272665ms at 2023-03-27 00:00:00.001
+2023-03-26 00:52:07,337 INFO 75958 [Timer] /Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 83273664ms at 2023-03-27 00:00:01.001
+2023-03-26 04:30:00,035 INFO 75963 [Job#167977619998220546076523770861] /Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-multipart/app/schedule/clean_tmpdir.js executing by app
+2023-03-26 04:30:00,056 INFO 75963 [-/127.0.0.1/-/18ms SCHEDULE /__schedule?path=/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&disable=false&immediate=false] [Job#167977619998220546076523770861] /Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-multipart/app/schedule/clean_tmpdir.js execute succeed, used 17ms. 
+2023-03-26 04:29:59,987 INFO 75958 [Timer] /Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 86400017ms at 2023-03-27 04:30:00.004
+2023-03-26 12:30:14,246 INFO 76598 [egg-schedule]: register schedule /Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2023-03-26 12:30:14,247 INFO 76598 [egg-schedule]: register schedule /Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-logrotator/app/schedule/clean_log.js
+2023-03-26 12:30:14,247 INFO 76598 [egg-schedule]: register schedule /Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2023-03-26 12:30:37,811 INFO 76766 [Timer] /Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 57562192ms at 2023-03-27 04:30:00.003
+2023-03-26 12:30:37,811 INFO 76766 [Timer] /Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 41362189ms at 2023-03-27 00:00:00.000
+2023-03-26 12:30:37,812 INFO 76766 [Timer] /Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 41363189ms at 2023-03-27 00:00:01.001
+2023-03-26 12:30:37,651 INFO 76771 [egg-schedule]: register schedule /Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2023-03-26 12:30:37,651 INFO 76771 [egg-schedule]: register schedule /Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-logrotator/app/schedule/clean_log.js
+2023-03-26 12:30:37,651 INFO 76771 [egg-schedule]: register schedule /Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-logrotator/app/schedule/rotate_by_file.js

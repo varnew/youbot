@@ -4716,3 +4716,181 @@ hostname: wuxianlindeMacBook-Pro.local
 2023-03-26 00:37:45,258 INFO 74673 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/wuxianlin/Documents/github_money/youbot/app/controller/home.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":62889339,"size":2326,"blocks":8,"atimeMs":1679762264729.589,"mtimeMs":1679762265246.8552,"ctimeMs":1679762265246.8552,"birthtimeMs":1679541649159.076,"atime":"2023-03-25T16:37:44.730Z","mtime":"2023-03-25T16:37:45.247Z","ctime":"2023-03-25T16:37:45.247Z","birthtime":"2023-03-23T03:20:49.159Z"},"remove":false,"isDirectory":false,"isFile":true}
 2023-03-26 00:37:45,309 INFO 74673 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/wuxianlin/Documents/github_money/youbot/app/controller/home.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":62889339,"size":2326,"blocks":8,"atimeMs":1679762264729.589,"mtimeMs":1679762265246.8552,"ctimeMs":1679762265246.8552,"birthtimeMs":1679541649159.076,"atime":"2023-03-25T16:37:44.730Z","mtime":"2023-03-25T16:37:45.247Z","ctime":"2023-03-25T16:37:45.247Z","birthtime":"2023-03-23T03:20:49.159Z"},"remove":false,"isDirectory":false,"isFile":true}
 2023-03-26 00:37:45,513 WARN 74673 [agent:development] reload worker because /Users/wuxianlin/Documents/github_money/youbot/app/controller/home.js change
+2023-03-26 00:52:05,182 INFO 75958 [egg:logger] init all loggers with options: {"dir":"/Users/wuxianlin/Documents/github_money/youbot/logs/youchat","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"youchat-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"enableFastContextLogger":false,"type":"agent","localStorage":{"enabled":false}}
+2023-03-26 00:52:05,193 INFO 75958 [egg:core] dump config after load, 4ms
+2023-03-26 00:52:05,262 INFO 75958 [egg-watcher] Start watching: ["/Users/wuxianlin/Documents/github_money/youbot/app","/Users/wuxianlin/Documents/github_money/youbot/config","/Users/wuxianlin/Documents/github_money/youbot/mocks","/Users/wuxianlin/Documents/github_money/youbot/mocks_proxy","/Users/wuxianlin/Documents/github_money/youbot/app.js"]
+2023-03-26 00:52:05,262 INFO 75958 [egg-watcher] Start watching: "/Users/wuxianlin/Documents/github_money/youbot/app"
+2023-03-26 00:52:05,263 INFO 75958 [egg-watcher] Start watching: "/Users/wuxianlin/Documents/github_money/youbot/config"
+2023-03-26 00:52:05,263 INFO 75958 [egg-watcher] Start watching: "/Users/wuxianlin/Documents/github_money/youbot/mocks"
+2023-03-26 00:52:05,263 INFO 75958 [egg-watcher] Start watching: "/Users/wuxianlin/Documents/github_money/youbot/mocks_proxy"
+2023-03-26 00:52:05,263 INFO 75958 [egg-watcher] Start watching: "/Users/wuxianlin/Documents/github_money/youbot/app.js"
+2023-03-26 00:52:05,263 INFO 75958 [egg-watcher:agent] watcher start success
+2023-03-26 00:52:05,310 INFO 75958 egg start timeline:
+▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [2187ms] - #0 Process Start
+                                           ▇▇▇▇▇▇ [336ms] - #1 Application Start
+                                           ▇ [10ms] - #2 Load Plugin
+                                           ▇ [20ms] - #3 Load Config
+                                           ▇ [0ms] - #4 Require(0) config/config.default.js
+                                           ▇ [1ms] - #5 Require(1) node_modules/egg-session/config/config.default.js
+                                           ▇ [0ms] - #6 Require(2) node_modules/egg-security/config/config.default.js
+                                           ▇ [1ms] - #7 Require(3) node_modules/egg-jsonp/config/config.default.js
+                                           ▇ [1ms] - #8 Require(4) node_modules/egg-onerror/config/config.default.js
+                                           ▇ [0ms] - #9 Require(5) node_modules/egg-i18n/config/config.default.js
+                                           ▇ [0ms] - #10 Require(6) node_modules/egg-watcher/config/config.default.js
+                                           ▇ [0ms] - #11 Require(7) node_modules/egg-schedule/config/config.default.js
+                                           ▇ [0ms] - #12 Require(8) node_modules/egg-multipart/config/config.default.js
+                                           ▇ [0ms] - #13 Require(9) node_modules/egg-development/config/config.default.js
+                                           ▇ [0ms] - #14 Require(10) node_modules/egg-logrotator/config/config.default.js
+                                           ▇ [1ms] - #15 Require(11) node_modules/egg-static/config/config.default.js
+                                           ▇ [1ms] - #16 Require(12) node_modules/egg-view/config/config.default.js
+                                           ▇ [1ms] - #17 Require(13) node_modules/egg/config/config.default.js
+                                           ▇ [0ms] - #18 Require(14) config/config.default.js
+                                           ▇ [0ms] - #19 Require(15) node_modules/egg-security/config/config.local.js
+                                           ▇ [0ms] - #20 Require(16) node_modules/egg-watcher/config/config.local.js
+                                           ▇ [1ms] - #21 Require(17) node_modules/egg-view/config/config.local.js
+                                           ▇ [0ms] - #22 Require(18) node_modules/egg/config/config.local.js
+                                           ▇ [73ms] - #23 Load extend/agent.js
+                                           ▇ [3ms] - #24 Require(19) node_modules/egg-security/app/extend/agent.js
+                                            ▇ [63ms] - #25 Require(20) node_modules/egg-schedule/app/extend/agent.js
+                                             ▇ [2ms] - #26 Require(21) node_modules/egg-logrotator/app/extend/agent.js
+                                             ▇ [68ms] - #27 Load extend/context.js
+                                             ▇ [17ms] - #28 Require(22) node_modules/egg-security/app/extend/context.js
+                                             ▇ [5ms] - #29 Require(23) node_modules/egg-jsonp/app/extend/context.js
+                                             ▇ [1ms] - #30 Require(24) node_modules/egg-i18n/app/extend/context.js
+                                             ▇ [33ms] - #31 Require(25) node_modules/egg-multipart/app/extend/context.js
+                                              ▇ [4ms] - #32 Require(26) node_modules/egg-view/app/extend/context.js
+                                              ▇ [2ms] - #33 Require(27) node_modules/egg/app/extend/context.js
+                                              ▇ [34ms] - #34 Load agent.js
+                                              ▇ [2ms] - #35 Require(28) node_modules/egg-security/agent.js
+                                              ▇ [2ms] - #36 Require(29) node_modules/egg-onerror/agent.js
+                                              ▇ [6ms] - #37 Require(30) node_modules/egg-watcher/agent.js
+                                              ▇ [4ms] - #38 Require(31) node_modules/egg-schedule/agent.js
+                                              ▇ [16ms] - #39 Require(32) node_modules/egg-development/agent.js
+                                               ▇ [1ms] - #40 Require(33) node_modules/egg-logrotator/agent.js
+                                               ▇ [1ms] - #41 Require(34) node_modules/egg/agent.js
+                                               ▇ [78ms] - #42 Before Start in node_modules/egg-watcher/lib/init.js:15:14
+                                               ▇ [42ms] - #43 Before Start in node_modules/egg-schedule/agent.js:12:9
+                                               ▇▇ [115ms] - #44 Before Start in node_modules/egg-development/agent.js:12:9
+2023-03-26 00:52:05,311 INFO 75958 [egg:core] dump config after ready, 8ms
+2023-03-26 01:22:10,404 ERROR 75958 nodejs.ClusterClientNoResponseError: client no response in 1687606ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wuxianlin/Documents/github_money/youbot/node_modules/cluster-client/lib/leader.js:79:25)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 75958
+hostname: wuxianlindeMBP.lan
+
+2023-03-26 02:45:03,506 ERROR 75958 nodejs.ClusterClientNoResponseError: client no response in 931898ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wuxianlin/Documents/github_money/youbot/node_modules/cluster-client/lib/leader.js:79:25)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 75958
+hostname: wuxianlindeMBP.lan
+
+2023-03-26 02:58:07,556 ERROR 75958 nodejs.ClusterClientNoResponseError: client no response in 623931ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wuxianlin/Documents/github_money/youbot/node_modules/cluster-client/lib/leader.js:79:25)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 75958
+hostname: wuxianlindeMBP.lan
+
+2023-03-26 06:23:05,410 ERROR 75958 nodejs.ClusterClientNoResponseError: client no response in 5895991ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wuxianlin/Documents/github_money/youbot/node_modules/cluster-client/lib/leader.js:79:25)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 75958
+hostname: wuxianlindeMBP.lan
+
+2023-03-26 08:23:53,219 ERROR 75958 nodejs.ClusterClientNoResponseError: client no response in 7207198ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wuxianlin/Documents/github_money/youbot/node_modules/cluster-client/lib/leader.js:79:25)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 75958
+hostname: wuxianlindeMBP.lan
+
+2023-03-26 10:24:39,904 ERROR 75958 nodejs.ClusterClientNoResponseError: client no response in 7206960ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wuxianlin/Documents/github_money/youbot/node_modules/cluster-client/lib/leader.js:79:25)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 75958
+hostname: wuxianlindeMBP.lan
+
+2023-03-26 11:30:01,652 ERROR 75958 nodejs.ClusterClientNoResponseError: client no response in 3881966ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wuxianlin/Documents/github_money/youbot/node_modules/cluster-client/lib/leader.js:79:25)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 75958
+hostname: wuxianlindeMBP.lan
+
+2023-03-26 12:22:43,573 ERROR 75958 nodejs.ClusterClientNoResponseError: client no response in 1601528ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wuxianlin/Documents/github_money/youbot/node_modules/cluster-client/lib/leader.js:79:25)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 75958
+hostname: wuxianlindeMBP.lan
+
+2023-03-26 12:30:12,089 WARN 75958 [agent:development] reload worker because /Users/wuxianlin/Documents/github_money/youbot/app/controller/home.js change
+2023-03-26 12:30:11,879 INFO 75958 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/wuxianlin/Documents/github_money/youbot/app/controller/home.js","stat":{"dev":16777222,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":62889339,"size":2353,"blocks":8,"atimeMs":1679805011845.7307,"mtimeMs":1679805011813.9556,"ctimeMs":1679805011813.9556,"birthtimeMs":1679541649159.076,"atime":"2023-03-26T04:30:11.846Z","mtime":"2023-03-26T04:30:11.814Z","ctime":"2023-03-26T04:30:11.814Z","birthtime":"2023-03-23T03:20:49.159Z"},"remove":false,"isDirectory":false,"isFile":true}
+2023-03-26 12:30:36,821 INFO 76766 [egg:logger] init all loggers with options: {"dir":"/Users/wuxianlin/Documents/github_money/youbot/logs/youchat","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"youchat-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"enableFastContextLogger":false,"type":"agent","localStorage":{"enabled":false}}
+2023-03-26 12:30:36,840 INFO 76766 [egg:core] dump config after load, 12ms
+2023-03-26 12:30:36,894 INFO 76766 [egg-watcher] Start watching: ["/Users/wuxianlin/Documents/github_money/youbot/app","/Users/wuxianlin/Documents/github_money/youbot/config","/Users/wuxianlin/Documents/github_money/youbot/mocks","/Users/wuxianlin/Documents/github_money/youbot/mocks_proxy","/Users/wuxianlin/Documents/github_money/youbot/app.js"]
+2023-03-26 12:30:36,894 INFO 76766 [egg-watcher] Start watching: "/Users/wuxianlin/Documents/github_money/youbot/app"
+2023-03-26 12:30:36,894 INFO 76766 [egg-watcher] Start watching: "/Users/wuxianlin/Documents/github_money/youbot/config"
+2023-03-26 12:30:36,894 INFO 76766 [egg-watcher] Start watching: "/Users/wuxianlin/Documents/github_money/youbot/mocks"
+2023-03-26 12:30:36,895 INFO 76766 [egg-watcher] Start watching: "/Users/wuxianlin/Documents/github_money/youbot/mocks_proxy"
+2023-03-26 12:30:36,895 INFO 76766 [egg-watcher] Start watching: "/Users/wuxianlin/Documents/github_money/youbot/app.js"
+2023-03-26 12:30:36,895 INFO 76766 [egg-watcher:agent] watcher start success
+2023-03-26 12:30:36,948 INFO 76766 egg start timeline:
+▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [1525ms] - #0 Process Start
+                                         ▇▇▇▇▇▇▇▇ [306ms] - #1 Application Start
+                                         ▇ [7ms] - #2 Load Plugin
+                                         ▇ [15ms] - #3 Load Config
+                                         ▇ [0ms] - #4 Require(0) config/config.default.js
+                                         ▇ [0ms] - #5 Require(1) node_modules/egg-session/config/config.default.js
+                                         ▇ [1ms] - #6 Require(2) node_modules/egg-security/config/config.default.js
+                                         ▇ [0ms] - #7 Require(3) node_modules/egg-jsonp/config/config.default.js
+                                         ▇ [0ms] - #8 Require(4) node_modules/egg-onerror/config/config.default.js
+                                         ▇ [1ms] - #9 Require(5) node_modules/egg-i18n/config/config.default.js
+                                         ▇ [0ms] - #10 Require(6) node_modules/egg-watcher/config/config.default.js
+                                         ▇ [1ms] - #11 Require(7) node_modules/egg-schedule/config/config.default.js
+                                         ▇ [0ms] - #12 Require(8) node_modules/egg-multipart/config/config.default.js
+                                         ▇ [0ms] - #13 Require(9) node_modules/egg-development/config/config.default.js
+                                         ▇ [0ms] - #14 Require(10) node_modules/egg-logrotator/config/config.default.js
+                                         ▇ [0ms] - #15 Require(11) node_modules/egg-static/config/config.default.js
+                                         ▇ [1ms] - #16 Require(12) node_modules/egg-view/config/config.default.js
+                                         ▇ [1ms] - #17 Require(13) node_modules/egg/config/config.default.js
+                                          ▇ [0ms] - #18 Require(14) config/config.default.js
+                                          ▇ [1ms] - #19 Require(15) node_modules/egg-security/config/config.local.js
+                                          ▇ [0ms] - #20 Require(16) node_modules/egg-watcher/config/config.local.js
+                                          ▇ [0ms] - #21 Require(17) node_modules/egg-view/config/config.local.js
+                                          ▇ [0ms] - #22 Require(18) node_modules/egg/config/config.local.js
+                                          ▇▇ [106ms] - #23 Load extend/agent.js
+                                          ▇ [3ms] - #24 Require(19) node_modules/egg-security/app/extend/agent.js
+                                          ▇▇ [97ms] - #25 Require(20) node_modules/egg-schedule/app/extend/agent.js
+                                            ▇ [3ms] - #26 Require(21) node_modules/egg-logrotator/app/extend/agent.js
+                                             ▇ [24ms] - #27 Load extend/context.js
+                                             ▇ [8ms] - #28 Require(22) node_modules/egg-security/app/extend/context.js
+                                             ▇ [1ms] - #29 Require(23) node_modules/egg-jsonp/app/extend/context.js
+                                             ▇ [1ms] - #30 Require(24) node_modules/egg-i18n/app/extend/context.js
+                                             ▇ [9ms] - #31 Require(25) node_modules/egg-multipart/app/extend/context.js
+                                             ▇ [1ms] - #32 Require(26) node_modules/egg-view/app/extend/context.js
+                                             ▇ [1ms] - #33 Require(27) node_modules/egg/app/extend/context.js
+                                             ▇ [29ms] - #34 Load agent.js
+                                             ▇ [2ms] - #35 Require(28) node_modules/egg-security/agent.js
+                                             ▇ [1ms] - #36 Require(29) node_modules/egg-onerror/agent.js
+                                             ▇ [3ms] - #37 Require(30) node_modules/egg-watcher/agent.js
+                                             ▇ [3ms] - #38 Require(31) node_modules/egg-schedule/agent.js
+                                             ▇ [14ms] - #39 Require(32) node_modules/egg-development/agent.js
+                                              ▇ [1ms] - #40 Require(33) node_modules/egg-logrotator/agent.js
+                                              ▇ [1ms] - #41 Require(34) node_modules/egg/agent.js
+                                              ▇ [71ms] - #42 Before Start in node_modules/egg-watcher/lib/init.js:15:14
+                                              ▇ [41ms] - #43 Before Start in node_modules/egg-schedule/agent.js:12:9
+                                              ▇▇ [106ms] - #44 Before Start in node_modules/egg-development/agent.js:12:9
+2023-03-26 12:30:36,948 INFO 76766 [egg:core] dump config after ready, 9ms
