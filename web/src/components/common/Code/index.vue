@@ -39,7 +39,7 @@ function updateUserInfo(options: Partial<UserInfo>) {
     <img
       style="display: block; width: 200px; margin: 20px auto"
       referrerpolicy="no-referrer"
-      src="https://upload-images.jianshu.io/upload_images/4752413-f52303ff244dd49f.png?imageMogr2/auto-orient/strip|imageView2/2/w/430/format/webp"
+      src="https://upload-images.jianshu.io/upload_images/4752413-7f5281d25fa67702.png?imageMogr2/auto-orient/strip|imageView2/2/w/430/format/webp"
     />
     <div style="text-align: center; color: gray; font-size: 12px; margin-bottom: 20px">微信扫描二维码获取密钥，一次可供使用约1周！</div>
     <div class="flex items-center space-x-4">
