@@ -1082,3 +1082,35 @@ hostname: wuxianlindeMBP.lan
 pid: 10360
 hostname: wuxianlindeMBP.lan
 
+2023-03-28 08:27:37,642 ERROR 11192 nodejs.ClusterClientNoResponseError: client no response in 653898ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wuxianlin/Documents/github_money/youbot/node_modules/cluster-client/lib/leader.js:79:25)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 11192
+hostname: wuxianlindeMBP.lan
+
+2023-03-28 08:42:39,210 ERROR 11192 nodejs.ClusterClientNoResponseError: client no response in 880908ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wuxianlin/Documents/github_money/youbot/node_modules/cluster-client/lib/leader.js:79:25)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 11192
+hostname: wuxianlindeMBP.lan
+
+2023-03-28 08:57:41,214 ERROR 11192 nodejs.ClusterClientNoResponseError: client no response in 901995ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wuxianlin/Documents/github_money/youbot/node_modules/cluster-client/lib/leader.js:79:25)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 11192
+hostname: wuxianlindeMBP.lan
+
+2023-03-28 09:07:39,101 ERROR 11192 nodejs.ClusterClientNoResponseError: client no response in 597875ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wuxianlin/Documents/github_money/youbot/node_modules/cluster-client/lib/leader.js:79:25)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 11192
+hostname: wuxianlindeMBP.lan
+
