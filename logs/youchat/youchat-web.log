@@ -1007,3 +1007,66 @@ hostname: wuxianlindeMacBook-Pro.local
 pid: 24583
 hostname: wuxianlindeMacBook-Pro.local
 
+2023-03-28 07:55:36,080 ERROR 10360 [-/127.0.0.1/-/112593ms POST /chat] nodejs.Error: Evaluation failed: TypeError: Cannot read properties of undefined (reading 'sign')
+    at pptr://__puppeteer_evaluation_script__:6:90
+    at new Promise (<anonymous>)
+    at pptr://__puppeteer_evaluation_script__:4:14
+    at pptr://__puppeteer_evaluation_script__:6:90
+    at new Promise (<anonymous>)
+    at pptr://__puppeteer_evaluation_script__:4:14
+    at ExecutionContext._ExecutionContext_evaluate (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:255:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ExecutionContext.evaluate (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:143:16)
+    at async getResult (/Users/wuxianlin/Documents/github_money/youbot/broswer/index.js:33:15)
+    at async featch (/Users/wuxianlin/Documents/github_money/youbot/broswer/index.js:62:15)
+    at async HomeController.chat (/Users/wuxianlin/Documents/github_money/youbot/app/controller/home.js:20:20)
+    at async /Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+
+pid: 10360
+hostname: wuxianlindeMBP.lan
+
+2023-03-28 08:01:37,474 ERROR 10360 [-/127.0.0.1/-/3ms POST /chat] nodejs.Error: Evaluation failed: TypeError: Cannot read properties of undefined (reading 'sign')
+    at pptr://__puppeteer_evaluation_script__:6:90
+    at new Promise (<anonymous>)
+    at pptr://__puppeteer_evaluation_script__:4:14
+    at pptr://__puppeteer_evaluation_script__:6:90
+    at new Promise (<anonymous>)
+    at pptr://__puppeteer_evaluation_script__:4:14
+    at ExecutionContext._ExecutionContext_evaluate (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:255:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ExecutionContext.evaluate (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:143:16)
+    at async getResult (/Users/wuxianlin/Documents/github_money/youbot/broswer/index.js:33:15)
+    at async featch (/Users/wuxianlin/Documents/github_money/youbot/broswer/index.js:62:15)
+    at async HomeController.chat (/Users/wuxianlin/Documents/github_money/youbot/app/controller/home.js:20:20)
+    at async /Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+
+pid: 10360
+hostname: wuxianlindeMBP.lan
+
+2023-03-28 08:01:40,345 ERROR 10360 [-/127.0.0.1/-/3ms POST /chat] nodejs.Error: Evaluation failed: TypeError: Cannot read properties of undefined (reading 'sign')
+    at pptr://__puppeteer_evaluation_script__:6:90
+    at new Promise (<anonymous>)
+    at pptr://__puppeteer_evaluation_script__:4:14
+    at pptr://__puppeteer_evaluation_script__:6:90
+    at new Promise (<anonymous>)
+    at pptr://__puppeteer_evaluation_script__:4:14
+    at ExecutionContext._ExecutionContext_evaluate (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:255:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ExecutionContext.evaluate (/Users/wuxianlin/Documents/github_money/youbot/node_modules/puppeteer-core/lib/cjs/puppeteer/common/ExecutionContext.js:143:16)
+    at async getResult (/Users/wuxianlin/Documents/github_money/youbot/broswer/index.js:33:15)
+    at async featch (/Users/wuxianlin/Documents/github_money/youbot/broswer/index.js:62:15)
+    at async HomeController.chat (/Users/wuxianlin/Documents/github_money/youbot/app/controller/home.js:20:20)
+    at async /Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/wuxianlin/Documents/github_money/youbot/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+
+pid: 10360
+hostname: wuxianlindeMBP.lan
+

@@ -20,7 +20,7 @@ async function buildBrowser(headless = false) {
 let page = null;
 async function buildPage(browser) {
   if (page) return page;
-  const url = encodeURI(`http://www.openmao.com/#/chat`);
+  const url = encodeURI(`http://www.openmao.com/#/coding`);
   page = await browser.newPage({ javascriptEnabled: true });
   await page.setDefaultNavigationTimeout(1000 * 60 * 60 * 24);
   await page.goto(url);
@@ -36,7 +36,7 @@ async function getResult(page, option) {
       const time = new Date().getTime().toString().substr(0, 10);
       return new Promise((resolve, reject) => {
         try {
-          const sign = document.querySelector(".app-main-container").__vue__.$children[1].sign(text, id, time);
+          const sign = document.querySelector(".chat-box").__vue__.$children[0].sign(text, id, time);
           resolve({ sign, time, text, id });
         } catch (error) {
           reject(error);
